@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+""" Creates an empty class called Square
+"""
+
 class Square:
     """ A class that defines a square by its size
     """
