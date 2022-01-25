@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" Creates an empty class called Square
+""" Creates a class called Node
 """
 
 
@@ -48,8 +48,17 @@ class Node:
         self.__next_node = value
 
 
+""" Creates an class called SinglyLinkedList
+"""
+
 class SinglyLinkedList:
     def __str__(self):
+        """
+             Instantiation with size
+        Args:
+            data: data of the node
+            next_node: next node
+        """
         rtn = ""
         ptr = self.__head
 
@@ -62,9 +71,15 @@ class SinglyLinkedList:
         return rtn
 
     def __init__(self):
+        """
+        sets data of node
+        """
         self.__head = None
 
     def sorted_insert(self, value):
+        """
+        sets data of node
+        """
         ptr = self.__head
 
         while ptr is not None:
